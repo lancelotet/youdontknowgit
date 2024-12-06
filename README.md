@@ -1,18 +1,20 @@
 
 Starting GIT
 
-    Get started/Start your journey/
+## Get started/Start your journey
+
+If you're new to GitHub and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
+
+- Create an account on GitHub.
+- Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
+- Personalize your profile to share your interests and skills.
+- Explore GitHub to find inspiration for your own projects and connect with others.
+- Learn how to download interesting code for your own use.
+- Learn how to upload something you're working on to a GitHub repository.
 
 About GitHub and Git
 
-You can use GitHub and Git to collaborate on work.
-In this article
 
-    About GitHub
-    About Git
-    Where do I start?
-    Next steps
-    Further reading
 
 About GitHub
 
@@ -62,11 +64,3 @@ If you're new to GitHub, and unfamiliar with Git, we recommend working through t
     Explore GitHub to find inspiration for your own projects and connect with others.
     Learn how to download interesting code for your own use.
     Learn how to upload something you're working on to a GitHub repository.
-
-Next steps
-
-    "Creating an account on GitHub"
-
-Further reading
-
-    "Connecting to GitHub"
