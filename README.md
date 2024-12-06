@@ -1,5 +1,5 @@
 
-# Starting GIT
+## Starting GIT
 
 ## Get started/Start your journey
 
