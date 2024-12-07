@@ -1,23 +1,16 @@
-
-## Starting GIT
-
-## Gitting Started
+# Gitting Started
 
 If you're new to GitHub and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
 
 - Create an account on GitHub.
-![image](https://github.com/lancelotet/youdontknowgit/blob/main/img/starting%20input.png)
+![image](https://github.com/lancelotet/youdontknowgit/blob/main/img/starting%20input.png width=50)
 - Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
 - Personalize your profile to share your interests and skills.
 - Explore GitHub to find inspiration for your own projects and connect with others.
 - Learn how to download interesting code for your own use.
 - Learn how to upload something you're working on to a GitHub repository.
 
-About GitHub and Git
-
-
-
-About GitHub
+## About GitHub and Git
 
 GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
 
@@ -61,7 +54,7 @@ If you're new to GitHub, and unfamiliar with Git, we recommend working through t
 
     Create an account on GitHub.
     Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
-    Personalise your profile to share your interests and skills.
+    Personalize your profile to share your interests and skills.
     Explore GitHub to find inspiration for your own projects and connect with others.
     Learn how to download interesting code for your own use.
     Learn how to upload something you're working on to a GitHub repository.
