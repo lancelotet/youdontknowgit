@@ -6,7 +6,7 @@
 If you're new to GitHub and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
 
 - Create an account on GitHub.
-![image](img\starting input.png)
+![image](/img/starting input.png)
 - Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
 - Personalize your profile to share your interests and skills.
 - Explore GitHub to find inspiration for your own projects and connect with others.
