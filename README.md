@@ -1,7 +1,7 @@
 
 ## Starting GIT
 
-## Get started/Start your journey
+## Gitting Started
 
 If you're new to GitHub and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
 
