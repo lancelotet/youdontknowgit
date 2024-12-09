@@ -49,7 +49,7 @@ Before we dive in, let's set up Git. This is your quest:
 
 ```bash
 git config --global user.name "Your Awesome Name"
-git config --global user.email "you@example.com"
+git config --global user.email "you@example.com"```
 ___
 
 ### 3. The Basics: Adding, Committing, and Pushing
