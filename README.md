@@ -24,7 +24,9 @@ A Git repository, often referred to as a "repo", is a storage space where your p
 
 Say, you have a directory on your computer that contains all the files of your project. When you init a Git repository in that directory, Git creates a hidden subdirectory named .git where all the information about the repository is stored. This includes the history of all the changes that were made to the repository, as well as the current state of the repository.
 
-** Nerd fact #1: If you are 100% sure that your repository is a Git repository, but you don't see the .git directory, then it's probably hidden. Make sure that you have enabled the option to show hidden files in your file manager.
+```bash
+"Nerd fact #1: If you are 100% sure that your repository is a Git repository, but you don't see the .git directory, then it's probably hidden. Make sure that you have enabled the option to show hidden files in your file manager."
+```
 
 Commit
 
@@ -33,7 +35,10 @@ Branch
 
 A branch is a parallel version of a repository. It allows you to work on a new feature of your project without affecting the main version of the project. Once you are done working on the new feature, you can merge the branch back into the main version of the project.
 
-Nerd fact #2: there's always at least one branch in a repository, even if you don't create any branches yourself. It is usually called main (or master).
+```bash
+"Nerd fact 2:" 
+"There's always at least one branch in a repository, even if you don't create any branches yourself. It is usually called main (or master)."
+```
 
 ### 1. What the Git?
 
@@ -64,18 +69,21 @@ Now, the real fun begins:
 
 - **Adding files**: Because Git likes to keep tabs on your work.
 
-  bash
+```bash
   git add .
+```
 
 - **Committing**: The part where you tell Git what you did. Be creative with your messages, it’s like journaling.
 
-  bash
+```bash
   git commit -m "I did something amazing today"
+```
 
 - **Pushing**: Send your changes to a magical place called the remote repository.
 
-  bash
+```bash
   git push origin master
+```
 
 ### 4. Branching Out: Because One Branch is Never Enough
 
@@ -83,14 +91,15 @@ Why stick to one path when you can have many?
 
 - **Creating a branch**:
 
-  bash
+```bash
   git checkout -b new_feature
-  markdown
+```
 
 - **Switching branches**: Because variety is the spice of life.
 
-  bash
+```bash
   git checkout master
+```
 
 ### 5. The Grand Finale: Pull Requests and Merging
 
@@ -103,4 +112,6 @@ The moment we've all been waiting for:
 
 Congratulations! You’ve navigated the weird and wonderful world of Git. Now go forth and version control like a pro. Happy coding!
 
-*Disclaimer: No actual wizards were harmed in the making of this tutorial
+```bash
+Disclaimer: No actual wizards were harmed in the making of this tutorial
+```
