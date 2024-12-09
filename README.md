@@ -49,8 +49,8 @@ Before we dive in, let's set up Git. This is your quest:
 
 ```bash
 git config --global user.name "Your Awesome Name"
-git config --global user.email "you@example.com"```
-___
+git config --global user.email "you@example.com"
+```
 
 ### 3. The Basics: Adding, Committing, and Pushing
 
@@ -102,7 +102,5 @@ The moment we've all been waiting for:
 ### Conclusion
 
 Congratulations! You’ve navigated the weird and wonderful world of Git. Now go forth and version control like a pro. Happy coding!
-
----
 
 *Disclaimer: No actual wizards were harmed in the making of this tutorial
