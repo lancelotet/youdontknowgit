@@ -1,60 +1,108 @@
-# Gitting Started
+# You Don't Know Git
 
-If you're new to GitHub and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
+# Understand what Git is and why it's useful
 
-- Create an account on GitHub.
-![image](<https://github.com/lancelotet/youdontknowgit/blob/main/img/starting%20input.png> width=50)
-- Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
-- Personalize your profile to share your interests and skills.
-- Explore GitHub to find inspiration for your own projects and connect with others.
-- Learn how to download interesting code for your own use.
-- Learn how to upload something you're working on to a GitHub repository.
+Git is a version control system that allows you to track changes to your code over time. It's a very powerful tool that is used by most software developers nowadays. It's also a great way to collaborate with others on a project.
+What is Git?
 
-## About GitHub and Git
+You can think of Git as a sort of "time machine" for your code. It allows you to go back in time and see what your code looked like at a certain point in time. It also allows you to see who made what changes to the code, and when. It even allows you to undo changes that you made to your code.
 
-GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
+Git itself is a command line tool. If you are not used to using the command line, it can look a little bit intimidating at first. But don't worry, we'll be learning how to use the command line in this course as well. Besides, most modern code editors have a built-in Git client that makes it easy to interact with Git using graphical user interface. However, it's still a good idea to learn how to use Git from the command line:
 
-Storing your code in a "repository" on GitHub allows you to:
+It gives you a better understanding of how Git works.
+It allows you to use Git on any computer, even if it doesn't have your favorite dev tools installed.
+It allows you to use Git on a remote server, that don't gave any graphical user interface.
 
-    Showcase or share your work.
-    Track and manage changes to your code over time.
-    Let others review your code, and make suggestions to improve it.
-    Collaborate on a shared project, without worrying that your changes will impact the work of your collaborators before you're ready to integrate them.
+Before we get started, let's go over some terminology that we'll be using throughout this course.
+___
 
-Collaborative working, one of GitHub’s fundamental features, is made possible by the open-source software, Git, upon which GitHub is built.
-About Git
+ Terminology
 
-Git is a version control system that intelligently tracks changes in files. Git is particularly useful when you and a group of people are all making changes to the same files at the same time.
+### Repository
 
-Typically, to do this in a Git-based workflow, you would:
+A Git repository, often referred to as a "repo", is a storage space where your project lives. It can be local storage on your computer, or it can be a remote storage on a service like GitHub or another online host. The repository is used to track changes in the project, coordinate work among multiple people, and track the project's history.
 
-    Create a branch off from the main copy of files that you (and your collaborators) are working on.
-    Make edits to the files independently and safely on your own personal branch.
-    Let Git intelligently merge your specific changes back into the main copy of files, so that your changes don't impact other people's updates.
-    Let Git keep track of your and other people's changes, so you all stay working on the most up-to-date version of the project.
+Say, you have a directory on your computer that contains all the files of your project. When you init a Git repository in that directory, Git creates a hidden subdirectory named .git where all the information about the repository is stored. This includes the history of all the changes that were made to the repository, as well as the current state of the repository.
 
-If you want to learn more about Git, see "About Git."
-How do Git and GitHub work together?
+** Nerd fact #1: If you are 100% sure that your repository is a Git repository, but you don't see the .git directory, then it's probably hidden. Make sure that you have enabled the option to show hidden files in your file manager.
 
-When you upload files to GitHub, you'll store them in a "Git repository." This means that when you make changes (or "commits") to your files in GitHub, Git will automatically start to track and manage your changes.
+Commit
 
-There are plenty of Git-related actions that you can complete on GitHub directly in your browser, such as creating a Git repository, creating branches, and uploading and editing files.
+Think of a commit as a snapshot of your repository at a certain point in time. A commit only carries information about the changes that were made to the repository since the last commit. It doesn't contain the entire repository (unless it's a first commit). So, each commit is a small piece of the repository's history, based on a previous commit. They all are link together in a chain, forming a timeline of the repository's history.
+Branch
 
-However, most people work on their files locally (on their own computer), then continually sync these local changes—and all the related Git data—with the central "remote" repository on GitHub. There are plenty of tools that you can use to do this, such as GitHub Desktop.
+A branch is a parallel version of a repository. It allows you to work on a new feature of your project without affecting the main version of the project. Once you are done working on the new feature, you can merge the branch back into the main version of the project.
 
-Once you start to collaborate with others and all need to work on the same repository at the same time, you’ll continually:
+Nerd fact #2: there's always at least one branch in a repository, even if you don't create any branches yourself. It is usually called main (or master).
 
-    Pull all the latest changes made by your collaborators from the remote repository on GitHub.
-    Push back your own changes to the same remote repository on GitHub.
+### 1. What the Git?
 
-Git figures out how to intelligently merge this flow of changes, and GitHub helps you manage the flow through features such as "pull requests."
-Where do I start?
+So, what is Git? Imagine a magical diary that remembers every single change you make to your projects. Accidentally deleted a file? No worries, Git's got your back. Just think of it as your project’s personal time machine.
 
-If you're new to GitHub, and unfamiliar with Git, we recommend working through the articles in the "Start your journey" category. The articles focus on tasks you can complete directly in your browser on GitHub and will help you to:
+### 2. Setting Up Git: The Grand Adventure
 
-    Create an account on GitHub.
-    Learn the "GitHub Flow", and the key principles of collaborative working (branches, commits, pull requests, merges).
-    Personalize your profile to share your interests and skills.
-    Explore GitHub to find inspiration for your own projects and connect with others.
-    Learn how to download interesting code for your own use.
-    Learn how to upload something you're working on to a GitHub repository.
+Before we dive in, let's set up Git. This is your quest:
+
+1. Download Git from [git-scm.com](https://git-scm.com).
+2. Install Git. If you see a wizard, you’re on the right path. Follow the instructions, and hope for the best.
+3. Configure Git with your name and email:
+
+```bash
+git config --global user.name "Your Awesome Name"
+git config --global user.email "you@example.com"
+```
+
+### 3. The Basics: Adding, Committing, and Pushing
+
+Now, the real fun begins:
+
+- **Creating a repository**: A fancy term for "starting a new project folder."
+
+  bash
+  git init
+  markdown
+
+- **Adding files**: Because Git likes to keep tabs on your work.
+
+  bash
+  git add .
+
+- **Committing**: The part where you tell Git what you did. Be creative with your messages, it’s like journaling.
+
+  bash
+  git commit -m "I did something amazing today"
+
+- **Pushing**: Send your changes to a magical place called the remote repository.
+
+  bash
+  git push origin master
+
+### 4. Branching Out: Because One Branch is Never Enough
+
+Why stick to one path when you can have many?
+
+- **Creating a branch**:
+
+  bash
+  git checkout -b new_feature
+  markdown
+
+- **Switching branches**: Because variety is the spice of life.
+
+  bash
+  git checkout master
+
+### 5. The Grand Finale: Pull Requests and Merging
+
+The moment we've all been waiting for:
+
+- **Creating a pull request**: Fancy term for "Please review my awesomeness."
+- **Merging**: Bringing it all together, just like a well-planned potluck.
+
+### Conclusion
+
+Congratulations! You’ve navigated the weird and wonderful world of Git. Now go forth and version control like a pro. Happy coding!
+
+---
+
+*Disclaimer: No actual wizards were harmed in the making of this tutorial.*
