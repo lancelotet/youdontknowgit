@@ -1,6 +1,6 @@
 # You Don't Know Git
 
-# Understand what Git is and why it's useful
+## Understand what Git is and why it's useful
 
 Git is a version control system that allows you to track changes to your code over time. It's a very powerful tool that is used by most software developers nowadays. It's also a great way to collaborate with others on a project.
 What is Git?
@@ -50,7 +50,7 @@ Before we dive in, let's set up Git. This is your quest:
 ```bash
 git config --global user.name "Your Awesome Name"
 git config --global user.email "you@example.com"
-```
+___
 
 ### 3. The Basics: Adding, Committing, and Pushing
 
@@ -105,4 +105,4 @@ Congratulations! You’ve navigated the weird and wonderful world of Git. Now go
 
 ---
 
-*Disclaimer: No actual wizards were harmed in the making of this tutorial.*
+*Disclaimer: No actual wizards were harmed in the making of this tutorial
